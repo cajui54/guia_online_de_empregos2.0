@@ -1,0 +1,51 @@
+:root {
+  --color-main: #121214;
+  --color-black: #0a0a0a;
+  --color-yellow: #fbbf24;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: var(--color-main);
+}
+h1 {
+  font-family: var(--font-roboto);
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+h2,
+h3 {
+  font-family: var(--font-oxygen);
+  letter-spacing: 0.1rem;
+}
+p {
+  font-family: var(--font-cabin);
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+.open div {
+  transform: translateX(-50px);
+  background-color: transparent !important;
+  box-shadow: none;
+}
+.open div::before {
+  transform: rotate(45deg) translate(35px, -35px) !important;
+}
+.open div::after {
+  transform: rotate(-45deg) translate(35px, 35px) !important;
+}
+.openNav {
+  top: 8rem;
+  transform: translateX(70rem) !important;
+}
+@media screen and (min-width: 900px) {
+  .openNav {
+    transform: none !important;
+  }
+}
