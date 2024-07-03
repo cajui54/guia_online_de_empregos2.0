@@ -1,0 +1,45 @@
+.containerSites {
+  width: 95%;
+  min-height: 30rem;
+  margin: 3rem auto;
+  @media screen and (min-width: 1000px) {
+    width: 80%;
+  }
+}
+.containerItems {
+  width: 95%;
+  min-height: 30rem;
+  margin: 1rem auto;
+
+  @media screen and (min-width: 1000px) {
+    width: 90%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 2rem;
+  }
+}
+.containerLink {
+  background-color: var(--color-main);
+  width: 100%;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: var(--font-roboto);
+    width: 20rem;
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 0.5rem;
+    color: var(--color-yellow);
+    background-color: #0f172a;
+    border: 0.1rem solid var(--color-yellow);
+    transition: all 0.5s ease-in-out;
+  }
+  a:hover {
+    background-color: transparent;
+  }
+}

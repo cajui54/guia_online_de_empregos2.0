@@ -11,16 +11,12 @@
     font-size: 2rem;
     line-height: 3rem;
   }
-}
-.containerTitles {
-  h2:first-child {
-    font-size: 4rem;
-    color: var(--color-yellow);
-  }
-  h2:last-child {
-    font-size: 3rem;
-    color: #fff;
-    margin-top: -1.5rem;
-    margin-left: 1rem;
+  @media screen and (min-width: 1000px) {
+    width: 90rem;
+    margin-left: 5rem;
+    p {
+      font-size: 2.5rem;
+      line-height: 5rem;
+    }
   }
 }

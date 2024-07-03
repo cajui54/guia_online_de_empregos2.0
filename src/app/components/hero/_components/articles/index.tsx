@@ -1,9 +1,10 @@
 import React from "react";
 import styles from "./styles.module.scss";
+import mainStyles from "../../../../main.module.scss";
 const ArticleHero = () => {
   return (
     <article className={styles.containerArticle}>
-      <div className={styles.containerTitles}>
+      <div className={mainStyles.containerTitles}>
         <h2>Guia Online</h2>
         <h2>de Empregos</h2>
       </div>

@@ -1,0 +1,18 @@
+.containerSectionJobs {
+  min-height: 30rem;
+  width: 95%;
+  margin: 2rem auto;
+  @media screen and (min-width: 1000px) {
+    width: 80%;
+  }
+}
+.containerJobsItems {
+  width: 100%;
+  min-height: 30rem;
+  @media screen and (min-width: 1000px) {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+  }
+}

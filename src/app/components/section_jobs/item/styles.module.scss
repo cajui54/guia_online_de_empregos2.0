@@ -1,0 +1,60 @@
+.containerItemJob {
+  background-color: var(--color-black);
+  width: 98%;
+  min-height: 10rem;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  border: 0.1rem solid var(--color-yellow);
+  padding-bottom: 1rem;
+
+  svg {
+    color: var(--color-yellow);
+    margin-left: 2rem;
+    font-size: 5rem;
+  }
+  @media screen and (min-width: 1000px) {
+    width: 30rem;
+    height: 20rem;
+    margin: 2rem;
+    flex-direction: column;
+    svg {
+      font-size: 8rem;
+    }
+  }
+}
+.containerInfo {
+  margin-left: 1rem;
+  div h2 {
+    color: var(--color-yellow);
+    font-size: 2rem;
+  }
+  div p {
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+  a {
+    background-color: var(--color-secundary);
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--color-yellow);
+    border: 1px solid var(--color-yellow);
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin-left: 1rem;
+  }
+  @media screen and (min-width: 1000px) {
+    div h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    div p {
+      font-size: 1.2rem;
+    }
+    a {
+      display: block;
+    }
+  }
+}

@@ -29,4 +29,11 @@
       linear-gradient(to bottom, var(--color-main) 10%, transparent);
     z-index: 2;
   }
+  @media screen and (min-width: 1000px) {
+    height: 40rem;
+    img {
+      margin-top: -7rem;
+      height: 50rem;
+    }
+  }
 }
