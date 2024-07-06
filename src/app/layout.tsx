@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Cabin, Roboto, Oxygen } from "next/font/google";
 import "./globals.scss";
 import { ContextMenuProvider } from "./context/contextMenu";
-
+import Script from "next/script";
 export const metadata: Metadata = {
   title: "Guia Online de Empregos - Home",
   description:
@@ -38,6 +38,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
+      <head>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-G9TQC20K8L"
+        />
+        <Script id="script-google">
+          {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+            gtag('config', 'G-G9TQC20K8L');
+          `}
+        </Script>
+      </head>
       <body
         className={`${cabin.variable} ${roboto.variable} ${oxygen.variable}`}
       >
