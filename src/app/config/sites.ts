@@ -2,6 +2,11 @@ import { ISites } from "../interfaces/sites";
 
 export const datasSites: ISites[] = [
   {
+    name: "Vigel",
+    site: "https://vigelserv.com.br/web/",
+    path: "https://vigelserv.com.br/web/",
+  },
+  {
     name: "Glassdoor",
     site: "https://www.glassdoor.com/",
     path: "https://www.glassdoor.com/Community/index.htm",
