@@ -6,7 +6,7 @@ import { datasSites } from "@/app/config/sites";
 import Link from "next/link";
 const SectionSites = () => {
   return (
-    <div className={styles.containerSites}>
+    <div className={styles.containerSites} id="anchorSites">
       <div className={mainStyles.containerTitles}>
         <h2>Sites de</h2>
         <h2>Empregos</h2>
@@ -32,7 +32,7 @@ const SectionSites = () => {
       </div>
 
       <div className={styles.containerLink}>
-        <Link href="/"> + Sites</Link>
+        <Link href="/pages/sites"> + Sites</Link>
       </div>
     </div>
   );

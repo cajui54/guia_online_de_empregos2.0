@@ -1,0 +1,59 @@
+.containerContact {
+  width: 95%;
+  height: 20rem;
+  margin: 2rem auto;
+  h2 {
+    font-size: 2.5rem;
+    color: var(--color-yellow);
+  }
+  div {
+    width: 70%;
+    margin: 5rem auto;
+    display: flex;
+
+    a {
+      margin-bottom: 0.5rem;
+      margin-left: 2rem;
+      text-decoration: none;
+    }
+    a span {
+      text-align: center;
+      display: flex;
+      color: #fff;
+      font-size: 0.8rem;
+      font-family: var(--font-oxygen);
+      align-items: center;
+      justify-content: center;
+    }
+    a svg {
+      font-size: 4rem;
+      transition: all 0.5s ease-in-out;
+    }
+    a svg:hover {
+      transform: scale(1.2);
+    }
+    a:first-child {
+      color: #0a66c2;
+    }
+    a:nth-child(2) {
+      color: var(--color-yellow);
+    }
+    a:nth-child(3) {
+      color: #16a34a;
+    }
+    a:last-child {
+      color: dodgerblue;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    width: 50rem;
+
+    h2 {
+      text-align: center;
+    }
+    div {
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

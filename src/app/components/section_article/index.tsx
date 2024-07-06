@@ -3,7 +3,7 @@ import mainStyles from "../../main.module.scss";
 import Link from "next/link";
 const SectionArticle = () => {
   return (
-    <div className={mainStyles.containerArticle}>
+    <div className={mainStyles.containerArticle} id="ancorTips">
       <div className={mainStyles.containerTitles}>
         <h2>Redes Sociais </h2>
         <h2>de Empregos</h2>

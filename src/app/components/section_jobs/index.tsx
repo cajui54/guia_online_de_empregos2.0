@@ -6,7 +6,7 @@ import ItemJob from "./item";
 
 const SectionJobs = () => {
   return (
-    <div className={styles.containerSectionJobs}>
+    <div className={styles.containerSectionJobs} id="anchorJobs">
       <div className={mainStyles.containerTitles}>
         <h2>Vagas de</h2>
         <h2>Empregos</h2>

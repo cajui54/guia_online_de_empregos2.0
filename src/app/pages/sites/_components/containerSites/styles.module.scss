@@ -1,0 +1,10 @@
+.containerSite {
+  min-height: 30rem;
+  width: 95%;
+  margin: 1rem auto;
+  padding: 1rem;
+  @media screen and (min-width: 1000px) {
+    width: 50rem;
+    margin-left: 1rem;
+  }
+}

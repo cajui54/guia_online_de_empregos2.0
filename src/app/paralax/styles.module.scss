@@ -1,0 +1,15 @@
+.containerParalax {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../assets/images/work03.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  div {
+    position: absolute;
+    background: linear-gradient(to top, var(--color-main), transparent 40%),
+      linear-gradient(to bottom, var(--color-main), transparent 40%);
+    width: 100%;
+    height: 100%;
+  }
+}

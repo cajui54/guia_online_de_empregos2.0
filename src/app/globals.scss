@@ -50,3 +50,14 @@ p {
     transform: none !important;
   }
 }
+.active span {
+  color: var(--color-yellow) !important;
+  font-weight: bold !important;
+  transform: scale(1.2) !important;
+}
+.active div {
+  width: 5rem !important;
+}
+.active svg {
+  font-size: 2rem !important;
+}

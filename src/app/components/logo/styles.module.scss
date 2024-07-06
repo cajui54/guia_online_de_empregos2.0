@@ -1,0 +1,13 @@
+.containerLogo {
+  cursor: pointer;
+  margin-left: 2rem;
+  text-decoration: none;
+  h1 p:first-child span:first-child,
+  h1 p:last-child span:first-child {
+    color: var(--color-yellow);
+  }
+  h1 p:last-child span:last-child,
+  h1 p:first-child span:last-child {
+    color: #fff;
+  }
+}

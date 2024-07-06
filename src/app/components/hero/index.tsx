@@ -15,7 +15,7 @@ const Hero = () => {
     }
   }, 5000);
   return (
-    <div className={styles.containerHero}>
+    <div className={styles.containerHero} id="anchorHome">
       <div className={styles.containerImg}>
         <div></div>
         <Image src={images[index].path} alt={images[index].title} />

@@ -3,7 +3,7 @@ import mainStyles from "../../main.module.scss";
 
 const SectionInformation = () => {
   return (
-    <div className={mainStyles.containerArticle}>
+    <div className={mainStyles.containerArticle} id="anchorInformation">
       <article className={mainStyles.article}>
         <section>
           <h2>Direitos Trabalhistas</h2>
