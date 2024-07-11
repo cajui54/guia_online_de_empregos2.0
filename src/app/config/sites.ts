@@ -111,4 +111,9 @@ export const datasSites: ISites[] = [
     site: "https://www.eternarh.com.br/",
     path: "https://www.eternarh.com.br/",
   },
+  {
+    name: "Santander",
+    site: "https://www.santander.com.br/trabalheconosco",
+    path: "https://www.santander.com.br/institucional-santander/trabalhe-conosco?ic=homepf-footer-trabalheconosco",
+  },
 ];

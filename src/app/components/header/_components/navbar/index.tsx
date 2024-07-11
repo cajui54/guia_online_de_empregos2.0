@@ -4,8 +4,11 @@ import styles from "./styles.module.scss";
 import { configMenu, optionsJobs } from "@/app/config/menu";
 import { Link } from "react-scroll";
 import { useContextMenu } from "@/app/context/contextMenu";
+import { IOptionNavbar } from "@/app/interfaces/menu";
+
 const Navbar = () => {
   const { menu, setMenu } = useContextMenu();
+  console.log(optionsJobs);
 
   const handleSetActive = (to: any) => to;
   const handleCloseMenu = () => setMenu!(configMenu.close);

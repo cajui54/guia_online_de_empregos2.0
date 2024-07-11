@@ -3,6 +3,7 @@ import styles from "./styles.module.scss";
 import Link from "next/link";
 import ButtonBuger from "./_components/ButtonBurger";
 import Navbar from "./_components/navbar";
+
 const Header = () => {
   return (
     <header className={styles.containerHeader}>

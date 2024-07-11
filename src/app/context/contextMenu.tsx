@@ -1,20 +1,11 @@
 "use client";
-import {
-  useContext,
-  createContext,
-  useState,
-  Dispatch,
-  SetStateAction,
-} from "react";
-import { IButtonMenu } from "../interfaces/menu";
+import { useContext, createContext, useState } from "react";
+import { IButtonMenu, IContextMenu } from "../interfaces/menu";
 import { configMenu } from "../config/menu";
 interface IChildrenNode {
   children: React.ReactNode;
 }
-interface IContextMenu {
-  menu: IButtonMenu;
-  setMenu?: Dispatch<SetStateAction<IButtonMenu>>;
-}
+
 export const ContextMenu = createContext<IContextMenu>({
   menu: configMenu.close,
 });

@@ -1,6 +1,10 @@
-import { ReactNode } from "react";
+import { Dispatch, SetStateAction } from "react";
 import { IconType } from "react-icons";
 
+export interface IContextMenu {
+  menu: IButtonMenu;
+  setMenu?: Dispatch<SetStateAction<IButtonMenu>>;
+}
 export interface IButtonMenu {
   status: boolean;
   classMenu: string;
