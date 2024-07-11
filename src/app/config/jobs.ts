@@ -1,6 +1,4 @@
 import imgComputerRobo from "../assets/images/computer02.jpg";
-import { StaticImageData } from "next/image";
-import { IconType } from "react-icons";
 import { FaComputer } from "react-icons/fa6";
 import { FaDatabase, FaSitemap } from "react-icons/fa";
 import { RiComputerFill } from "react-icons/ri";
@@ -9,7 +7,7 @@ import { GrCloudComputer } from "react-icons/gr";
 import { FaGolang } from "react-icons/fa6";
 import { GoRuby } from "react-icons/go";
 import { SiAngular } from "react-icons/si";
-import { IJobs } from "../interfaces/sites";
+import { ICategoryJob, IJobs, IJobsCategory } from "../interfaces/sites";
 
 export const dataJobs: IJobs[] = [
   {
@@ -43,27 +41,7 @@ export const dataJobs: IJobs[] = [
     path: "https://trabalheconosco.vagas.com.br/rededor",
   },
 ];
-interface IJobsCategory {
-  icon: IconType;
-  title: string;
-  description: string;
-  path: string;
-}
-interface ICategoryJob {
-  category: string;
-  jobs: IJobsCategory[];
-  hero: {
-    image: {
-      path: StaticImageData;
-      description: string;
-    };
-    title: {
-      first: string;
-      second: string;
-    };
-    paragraph: string;
-  };
-}
+
 export const jobsByCategory: ICategoryJob[] = [
   {
     category: "tecnologia",
