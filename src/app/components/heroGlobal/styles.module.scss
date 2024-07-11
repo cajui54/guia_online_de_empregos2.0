@@ -27,6 +27,11 @@
         transparent
       );
   }
+  @media screen and (min-width: 900px) {
+    img {
+      height: 40rem;
+    }
+  }
 }
 .containerTitle {
   background-color: var(--color-main);

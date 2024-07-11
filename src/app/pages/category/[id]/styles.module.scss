@@ -1,0 +1,12 @@
+.containerCategoryJobs {
+  min-height: 100vh;
+}
+.containerItems {
+  width: 90%;
+  margin: 5rem auto;
+  @media screen and (min-width: 900px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+  }
+}
