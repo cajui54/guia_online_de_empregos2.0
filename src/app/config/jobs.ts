@@ -9,6 +9,7 @@ import { GrCloudComputer } from "react-icons/gr";
 import { FaGolang } from "react-icons/fa6";
 import { GoRuby } from "react-icons/go";
 import { SiAngular } from "react-icons/si";
+import { IJobs } from "../interfaces/sites";
 
 export const dataJobs: IJobs[] = [
   {
@@ -42,7 +43,7 @@ export const dataJobs: IJobs[] = [
     path: "https://trabalheconosco.vagas.com.br/rededor",
   },
 ];
-interface IJobs {
+interface IJobsCategory {
   icon: IconType;
   title: string;
   description: string;
@@ -50,7 +51,7 @@ interface IJobs {
 }
 interface ICategoryJob {
   category: string;
-  jobs: IJobs[];
+  jobs: IJobsCategory[];
   hero: {
     image: {
       path: StaticImageData;
