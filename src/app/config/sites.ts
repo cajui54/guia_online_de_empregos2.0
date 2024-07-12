@@ -7,6 +7,11 @@ export const datasSites: ISites[] = [
     path: "https://vigelserv.com.br/web/",
   },
   {
+    name: "Mazzini",
+    site: "https://www.mazzini.com.br/",
+    path: "https://www.mazzini.com.br/",
+  },
+  {
     name: "Glassdoor",
     site: "https://www.glassdoor.com/",
     path: "https://www.glassdoor.com/Community/index.htm",
