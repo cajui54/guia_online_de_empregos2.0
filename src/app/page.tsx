@@ -7,6 +7,7 @@ import SectionInformation from "./components/section_information";
 import Footer from "./components/footer";
 import Contact from "./components/contact";
 import Paralax from "./paralax";
+import JobsByCategory from "./components/jobs_by_category";
 export default function Home() {
   return (
     <main>
@@ -15,6 +16,7 @@ export default function Home() {
       <Paralax />
       <SectionSites />
       <SectionJobs />
+      <JobsByCategory />
       <SectionArticle />
       <SectionInformation />
       <Contact />

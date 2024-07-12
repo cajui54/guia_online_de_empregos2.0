@@ -1,13 +1,14 @@
 import imgComputerRobo from "../assets/images/computer02.jpg";
+import imgComputerDoctor from "../assets/images/doctor02.jpg";
 import { FaComputer } from "react-icons/fa6";
 import { FaDatabase, FaSitemap } from "react-icons/fa";
 import { RiComputerFill } from "react-icons/ri";
 import { AiOutlineJavaScript } from "react-icons/ai";
 import { GrCloudComputer } from "react-icons/gr";
-import { FaGolang } from "react-icons/fa6";
+import { FaGolang, FaUserDoctor } from "react-icons/fa6";
 import { GoRuby } from "react-icons/go";
 import { SiAngular } from "react-icons/si";
-import { ICategoryJob, IJobs, IJobsCategory } from "../interfaces/sites";
+import { ICategoryJob, IJobs } from "../interfaces/sites";
 
 export const dataJobs: IJobs[] = [
   {
@@ -133,6 +134,58 @@ export const jobsByCategory: ICategoryJob[] = [
       title: {
         first: "Empregos na",
         second: "Area de Tecnologia",
+      },
+      paragraph: "Separamos diversas vagas na area de Tecnologia",
+    },
+  },
+  {
+    category: "medicina",
+    jobs: [
+      {
+        icon: FaUserDoctor,
+        title: "Auxilar De Saude Bucal",
+        description: "Informações completas no link abaixo:",
+        path: "https://www.infojobs.com.br/empregos.aspx?palabra=sa%C3%BAde&iv=9747070",
+      },
+      {
+        icon: FaUserDoctor,
+        title: "TECNICO EM ENFERMAGEM- EMERGENCIA INFANTIL",
+        description: "Informações completas no link abaixo:",
+        path: "https://www.infojobs.com.br/empregos.aspx?palabra=Enfermagem",
+      },
+      {
+        icon: FaUserDoctor,
+        title: "ESTÁGIO EM ENFERMAGEM",
+        description: "Informações completas no link abaixo:",
+        path: "https://www.infojobs.com.br/empregos.aspx?palabra=Enfermagem&iv=9637206",
+      },
+      {
+        icon: FaUserDoctor,
+        title: "Tecnica De Enfermagem",
+        description: "Informações completas no link abaixo:",
+        path: "https://www.infojobs.com.br/empregos.aspx?palabra=Enfermagem&iv=9745939",
+      },
+      {
+        icon: FaUserDoctor,
+        title: "Técnico de Enfermagem",
+        description: "Informações completas no link abaixo:",
+        path: "https://www.vagas.com.br/vagas/v2638167/tecnico-de-enfermagem",
+      },
+      {
+        icon: FaUserDoctor,
+        title: "Enfermeiro Auditor II",
+        description: "Informações completas no link abaixo:",
+        path: "https://www.vagas.com.br/vagas/v2656635/enfermeiro-auditor-ii",
+      },
+    ],
+    hero: {
+      image: {
+        path: imgComputerDoctor,
+        description: "Médico",
+      },
+      title: {
+        first: "Empregos na",
+        second: "Area da Saúde",
       },
       paragraph: "Separamos diversas vagas na area de Tecnologia",
     },

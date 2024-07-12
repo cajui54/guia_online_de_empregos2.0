@@ -8,9 +8,7 @@ interface IPropsParam {
   params: { id: string };
 }
 const ContainerJobs = ({ params }: IPropsParam) => {
-  const Datasfound = jobsByCategory.find(
-    (job) => job.category === "tecnologia"
-  );
+  const Datasfound = jobsByCategory.find((job) => job.category === params.id);
 
   return (
     <main className={styles.containerCategoryJobs}>
