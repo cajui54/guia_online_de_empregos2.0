@@ -6,6 +6,7 @@ export const jobsByCategory: IJobByCategory[] = [
   {
     image: imgTecnolgic,
     title: "Tecnologia",
+
     paragraph:
       "Separamos diversas vagas de empregos nessa categoria, acesse o link abaixo:",
     path: "/pages/category/tecnologia",
@@ -13,6 +14,7 @@ export const jobsByCategory: IJobByCategory[] = [
   {
     image: imgDoctor,
     title: "Enfermagem",
+
     paragraph:
       "Separamos diversas vagas de empregos nessa categoria, acesse o link abaixo:",
     path: "/pages/category/medicina",

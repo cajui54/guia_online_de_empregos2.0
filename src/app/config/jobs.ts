@@ -46,6 +46,7 @@ export const dataJobs: IJobs[] = [
 export const jobsByCategory: ICategoryJob[] = [
   {
     category: "tecnologia",
+    titlePage: "Tecnologia vagas de empregos",
     jobs: [
       {
         icon: FaComputer,
@@ -140,6 +141,7 @@ export const jobsByCategory: ICategoryJob[] = [
   },
   {
     category: "medicina",
+    titlePage: "Saúde vagas de empregos",
     jobs: [
       {
         icon: FaUserDoctor,
@@ -187,7 +189,7 @@ export const jobsByCategory: ICategoryJob[] = [
         first: "Empregos na",
         second: "Area da Saúde",
       },
-      paragraph: "Separamos diversas vagas na area de Tecnologia",
+      paragraph: "Separamos diversas vagas na area da saúde!",
     },
   },
 ];

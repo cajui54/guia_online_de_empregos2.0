@@ -1,7 +1,6 @@
-import React, { ReactNode } from "react";
+import React from "react";
 import styles from "./styles.module.scss";
 import { IconType } from "react-icons";
-import { FaComputer } from "react-icons/fa6";
 import Link from "next/link";
 
 interface JobItem {

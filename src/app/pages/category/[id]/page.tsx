@@ -4,12 +4,33 @@ import { jobsByCategory } from "@/app/config/jobs";
 import styles from "./styles.module.scss";
 import React from "react";
 import ItemJob from "../item";
+import { Metadata } from "next";
+import { ICategoryJob } from "@/app/interfaces/sites";
+export let metadata: Metadata;
+
 interface IPropsParam {
   params: { id: string };
 }
-const ContainerJobs = ({ params }: IPropsParam) => {
+const loadMetadata = (datas: ICategoryJob | undefined) => {
+  if (datas) {
+    return {
+      title: `${datas.titlePage} - Guia Online de Empregos`,
+      description:
+        "O Guia Online de empregos separou diversas vagas de empregos para você se cadastrar",
+      keywords: `empregos, vagas, estágio, ${datas.category}, Guia Online de Empregos`,
+    };
+  }
+  return {
+    title: `Guia Online de Empregos - Categoria`,
+    description:
+      "O Guia Online de empregos separou diversas vagas de empregos para você se cadastrar",
+    keywords:
+      "empregos, vagas, estágio, tecnologia, saúde, Guia Online de Empregos, back end, front-end, devops",
+  };
+};
+const ContainerJobs = async ({ params }: IPropsParam) => {
   const Datasfound = jobsByCategory.find((job) => job.category === params.id);
-
+  metadata = { ...loadMetadata(Datasfound) };
   return (
     <main className={styles.containerCategoryJobs}>
       <HeaderGlobal />

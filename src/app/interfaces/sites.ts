@@ -20,6 +20,7 @@ export interface IJobsCategory {
 }
 export interface ICategoryJob {
   category: string;
+  titlePage: string;
   jobs: IJobsCategory[];
   hero: {
     image: {
