@@ -8,6 +8,7 @@ import Footer from "./components/footer";
 import Contact from "./components/contact";
 import Paralax from "./paralax";
 import JobsByCategory from "./components/jobs_by_category";
+import Loading from "./loading";
 export default function Home() {
   return (
     <main>
