@@ -6,6 +6,7 @@ import React from "react";
 import ItemJob from "../item";
 import { Metadata } from "next";
 import { ICategoryJob } from "@/app/interfaces/sites";
+import NotFound from "@/app/not-found";
 export let metadata: Metadata;
 
 interface IPropsParam {
@@ -30,6 +31,7 @@ const loadMetadata = (datas: ICategoryJob | undefined) => {
 };
 const ContainerJobs = async ({ params }: IPropsParam) => {
   const Datasfound = jobsByCategory.find((job) => job.category === params.id);
+  if (!Datasfound) return <NotFound />;
   metadata = { ...loadMetadata(Datasfound) };
   return (
     <main className={styles.containerCategoryJobs}>
