@@ -50,12 +50,6 @@ export const jobsByCategory: ICategoryJob[] = [
     jobs: [
       {
         icon: FaComputer,
-        title: "Desenvolvedor TypeScript / Next.js",
-        description: "Informações completas no link abaixo:",
-        path: "https://www.linkedin.com/jobs/view/3974877951/?eBP=CwEAAAGQsrLqINYctvPRtPvOys6yyzJOOdKbFfqshwAvRVNxdnhGaE8DSTju0xiTFIn_k7SWtO2eJwOB_saBsP9yRhtjwSHrBXYnunS_2QSFD8qQD_4e1sL84Hy1G0z6TYaxDJ4qJNk5JebALiqM7T63Z9T2YC1U-yK4AF5OwXjrIY5rpzhx_kzz_rwZxEqNT-oiyGjZmASPjMYxlsWqBFITKcrhJXdhQIhGBVtXnS7V2Aynjlt5TCrQvRzmJu5j22YeJQlrxsNCJ42ar6AhsOijFVC1IJbJnQMTdQ6F16ZlBogM4HyDKzDwRhu70QKFTbwTXHH--ijtP-V475gCkeXwG4p76u7Z7aCJCgiTmOzWmZNDzVzrtcHhU-EZfI6rWUSEK9aCNFEmMWKNw6iW-aU&refId=a42a5855-2a87-332c-888f-fd6f0c582cd1&trackingId=hWh44Hhg09GMtgC650Sx6A%3D%3D",
-      },
-      {
-        icon: FaComputer,
         title: "Back End",
         description: "Informações completas no link abaixo:",
         path: "https://lnkd.in/dh2wdaUD",
