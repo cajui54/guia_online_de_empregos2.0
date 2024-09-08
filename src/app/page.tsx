@@ -8,8 +8,9 @@ import Footer from "./components/footer";
 import Contact from "./components/contact";
 import Paralax from "./paralax";
 import JobsByCategory from "./components/jobs_by_category";
-import Loading from "./loading";
+
 export default function Home() {
+  const desabled = false;
   return (
     <main>
       <Header />
@@ -17,7 +18,7 @@ export default function Home() {
       <Paralax />
       <SectionSites />
       <SectionJobs />
-      <JobsByCategory />
+      {desabled && <JobsByCategory />}
       <SectionArticle />
       <SectionInformation />
       <Contact />
