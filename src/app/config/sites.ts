@@ -2,6 +2,26 @@ import { ISites } from "../interfaces/sites";
 
 export const datasSites: ISites[] = [
   {
+    name: "Jobeka",
+    site: "https://br.jobeka.com/empregos-mau%C3%A1-sp?utm_source=google&utm_medium=cpc&utm_campaign=21376334786-&utm_term=&utm_content=x&loc_physical_ms=1031811&loc_interest_ms=&gad_source=1&gclid=Cj0KCQiAhbi8BhDIARIsAJLOlufYq8z9ei8pLhzeKzsncxhnlPvFTWuJfc3Q9PYXKifN3v8se3OP7zkaAsNmEALw_wcB",
+    path: "https://br.jobeka.com/",
+  },
+  {
+    name: "Gupy",
+    site: "https://portal.gupy.io/",
+    path: "https://portal.gupy.io/",
+  },
+  {
+    name: "Painel de Emprego",
+    site: "https://sistemas.maua.sp.gov.br/Vagas/",
+    path: "https://sistemas.maua.sp.gov.br/Vagas/",
+  },
+  {
+    name: "Vagas Remotas",
+    site: "https://vagasremotas.com.br/",
+    path: "https://vagasremotas.com.br/",
+  },
+  {
     name: "Randstad",
     site: "https://www.randstad.com.br/vagas/",
     path: "https://www.randstad.com.br/vagas/",
