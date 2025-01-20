@@ -8,8 +8,8 @@ const SectionJobs = () => {
   return (
     <div className={styles.containerSectionJobs} id="anchorJobs">
       <div className={mainStyles.containerTitles}>
-        <h2>Vagas de</h2>
-        <h2>Empregos</h2>
+        <h2>Trabalhe Conosco</h2>
+        <h2>de diversas empresas</h2>
       </div>
 
       <div className={mainStyles.containerInfo}>

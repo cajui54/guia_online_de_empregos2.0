@@ -22,6 +22,11 @@ export const dataJobs: IJobs[] = [
     path: "https://grupocarrefourbrasil.pandape.infojobs.com.br/",
   },
   {
+    title: "Grupo PetroReconcavo",
+    description: "Diversas vagas acesse o link abaixo:",
+    path: "https://petroreconcavocarreiras.gupy.io/",
+  },
+  {
     title: "Bagaggio",
     description: "Diversas vagas acesse o link abaixo:",
     path: "https://bagaggio.gupy.io/",

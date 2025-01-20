@@ -2,6 +2,16 @@ import { ISites } from "../interfaces/sites";
 
 export const datasSites: ISites[] = [
   {
+    name: "Randstad",
+    site: "https://www.randstad.com.br/vagas/",
+    path: "https://www.randstad.com.br/vagas/",
+  },
+  {
+    name: "BM Vagas",
+    site: "https://www.bmvagas.com.br/",
+    path: "https://www.bmvagas.com.br/",
+  },
+  {
     name: "Vigel",
     site: "https://vigelserv.com.br/web/",
     path: "https://vigelserv.com.br/web/",
