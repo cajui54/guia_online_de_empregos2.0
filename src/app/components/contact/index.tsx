@@ -4,14 +4,17 @@ import styles from "./styles.module.scss";
 import { IoLogoLinkedin } from "react-icons/io5";
 import { FaFacebookSquare } from "react-icons/fa";
 import { GiStrong } from "react-icons/gi";
-import { TiShoppingCart } from "react-icons/ti";
+import { CgWebsite } from "react-icons/cg";
 
 const Contact = () => {
   return (
     <div className={styles.containerContact} id="anchorContact">
       <h2>Dicas e sugestãos</h2>
       <div>
-        <Link href="https://www.linkedin.com/in/jacksoncajui/" target="_blank">
+        <Link
+          href="https://www.linkedin.com/in/guia-online-de-empregos-9979282a5/"
+          target="_blank"
+        >
           <IoLogoLinkedin />
           <span>Linkedin.</span>
         </Link>
@@ -21,9 +24,9 @@ const Contact = () => {
           <span>IMC</span>
         </Link>
 
-        <Link href="https://smart-purchases.vercel.app/" target="_blank">
-          <TiShoppingCart />
-          <span>Smart Buy</span>
+        <Link href="https://smart-tools-web.vercel.app/" target="_blank">
+          <CgWebsite />
+          <span>Smart Tools</span>
         </Link>
 
         <Link
